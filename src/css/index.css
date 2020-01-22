@@ -1,0 +1,114 @@
+
+*{
+    font-family: Lato;
+    color: grey;
+}
+[class*="col-"]
+{
+    float: left;
+    padding-left: 15px!important;
+    padding-right: 15px!important;
+}
+*{
+    background-color: #FFFFFF;
+}
+/*navbar*/
+.navbar a{
+    color: black;
+}
+.dropdown-language{
+    display: none;
+}
+/*====*/
+
+@media screen and (max-width: 1550px) {
+
+    .dropdown-language{
+        display: block;
+    }
+    .selected-language{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1190px)
+{
+    .nav-item{
+        padding-left:2rem ;
+    }
+    #floatright-row2{
+        display: none;
+    }
+}
+@media only screen and (max-width:1200px)
+{
+    #svg-line{
+        display: none;
+    }
+    .card{
+        margin-top: 1rem;
+    }
+    .text-thucdon{
+        padding-top: 1rem;
+    }
+    #quote{
+        padding-top: 2em;
+    }
+    #logo-hellovn{
+        padding-left: 0;
+    }
+
+}
+
+/*quotes*/
+.blockquote-custom {
+    position: relative;
+    font-size: 1.1rem;
+  }
+  
+  .blockquote-custom-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -25px;
+    left: 50px;
+  }
+#star{
+    font-size: 0.7em;
+}
+#content-complain{
+    padding-top: 1em;
+}
+/*footer*/
+#btn-xemthem{
+    border-radius: 0!important;
+}
+
+.nav-link.active:hover{
+   color:#007BFF;
+}
+
+.Slider{
+  width: 914px;
+  height:457px;
+}
+
+.slick-arrow.slick-prev{
+    display:none !important;
+}
+
+.slick-arrow.slick-next{
+    display:none !important;
+}
+
+.slick-slider.slick-initialized:nth-child(2){
+    margin-left:15%;
+}
+
+.Slider1{
+    width:100px;
+}
